@@ -9,7 +9,7 @@
         },
       "2":
         {
-          "clickObject":"a[href='/ref=nav_logo']"
+          "clickLink":"a[href='/ref=nav_logo']"
         },
       "3":
         {
