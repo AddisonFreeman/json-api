@@ -1,29 +1,20 @@
 {
-      "1": 
-        {
-          "inputText":{
-            "where": "#twotabsearchtextbox",
-            "what" : "How I Met Your Mother"
-          },
-          "submitForm": "[action='/s/ref=nb_sb_noss']"
-        },
-      "2":
-        {
-          "clickLink":"a[href='/ref=nav_logo']"
-        },
-      "3":
-        {
-          "inputText": {
-            "where": "#twotabsearchtextbox",
-            "what" : "Doctor Who"
-          },
-          "submitForm": "[action='/s/ref=nb_sb_noss']"
-        },
-      "4":
-        {
-          "getText": {
+      [   
+          [ "inputText": {
+              "where": "#twotabsearchtextbox",
+              "what" : "How I Met Your Mother"
+            },
+            "submitForm": "[action='/s/ref=nb_sb_noss']"],
+          [ "clickLink":"a[href='/ref=nav_logo']"],
+          [ "inputText": {
+              "where": "#twotabsearchtextbox",
+              "what" : "Doctor Who"
+            },
+            "submitForm": "[action='/s/ref=nb_sb_noss']"],
+          [ "getText": {
                "selector": "#result_0 .s-access-title",
                "attribute": "data-attribute"
-          }
-        }
+            }
+          ]
+      ]
 }
