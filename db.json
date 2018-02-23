@@ -19,4 +19,8 @@
           },
           "submitForm": "[action='/s/ref=nb_sb_noss']"
         }
+      "4":
+        {
+          "getText": "#result_0 .s-access-title"
+        }
 }
