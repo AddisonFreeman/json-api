@@ -11,9 +11,10 @@
         "": [{
               "clickLink":"a[href='/ref=nav_logo']"
              },{
-             "inputText": {
-               "where": "#twotabsearchtextbox",
-               "what" : "Doctor Who"
+               "inputText": {
+                 "where": "#twotabsearchtextbox",
+                 "what" : "Doctor Who"
+               }
              },{ 
                "submitForm": "[action='/s/ref=nb_sb_noss']" 
              }
