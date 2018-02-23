@@ -23,7 +23,7 @@
         {
           "getText": {
                "selector": "#result_0 .s-access-title",
-               "attribute": "data-attribute" //or "val", "text", "html"
+               "attribute": "data-attribute"
           }
         }
 }
