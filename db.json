@@ -9,13 +9,15 @@
       },{ "submitForm": "[action='/s/ref=nb_sb_noss']" 
       },{
         "": [{
-          "clickLink":"a[href='/ref=nav_logo']"
-         },{
-          "inputText": {
-            "where": "#twotabsearchtextbox",
-            "what" : "Doctor Who"
-         },{ "submitForm": "[action='/s/ref=nb_sb_noss']" }
-        ]
+              "clickLink":"a[href='/ref=nav_logo']"
+             },{
+             "inputText": {
+               "where": "#twotabsearchtextbox",
+               "what" : "Doctor Who"
+             },{ 
+               "submitForm": "[action='/s/ref=nb_sb_noss']" 
+             }
+            ]
       },{
         "getText": {
            "selector": "#result_0 .s-access-title",
