@@ -1,5 +1,5 @@
 {"instructions":
-  [{  
+  {  
     "commands": 
     [ {
         "inputText": {
@@ -18,5 +18,5 @@
            "attribute": "data-attribute"
          }
       }]
-  }]
+  }
 }
