@@ -17,6 +17,10 @@
            "selector": "#result_0 .s-access-title",
            "attribute": "data-attribute"
          }
-      }]
+      },{
+       "sendData": {} 
+      }
+     
+    ]
   }
 }
