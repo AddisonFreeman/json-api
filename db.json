@@ -15,7 +15,8 @@
       },{ "submitForm": "[action='/s/ref=nb_sb_noss']" 
       },{ "getText": {
            "selector": "#result_0 .s-access-title",
-           "attribute": "data-attribute"
+           "attribute": "data-attribute",
+           "key": "first result title"
          }
       },{
        "sendData": {} 
